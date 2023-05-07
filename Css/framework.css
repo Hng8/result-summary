@@ -1,0 +1,326 @@
+/* Start Box */
+.d-block {
+    display: block;
+}
+.d-grid {
+    display: grid;
+}
+.gap-5 {
+    gap: 5px;
+}
+.gap-10 {
+    gap: 10px;
+}
+.gap-20 {
+    gap: 20px;
+}
+@media (max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+}
+.d-flex {
+    display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-1 {
+    flex: 1;
+}
+.flex-2 {
+    flex: 2;
+}
+.align-center {
+    align-items: center;
+}
+.justify-sb {
+    justify-content: space-between;
+}
+@media (max-width: 767px) {
+    .column-mobile {
+        flex-direction: column;
+    }
+}
+/* End Box */
+/* Start Padding + Margin  */
+.p-5 {
+    padding: 5px;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-15 {
+    padding: 15px;
+}
+.p-20 {
+    padding: 20px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.ptb-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ptb-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.pl-10 {
+    padding-left: 10px;
+}
+.pl-15 {
+    padding-left: 15px;
+}
+.pl-30 {
+    padding-left: 30px;
+}
+.m-0 {
+    margin: 0;
+}
+.m-10 {
+    margin: 10px;
+}
+.m-15 {
+    margin: 15px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.ml-15 {
+    margin-left: 15px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+
+/* End Padding + Margin  */
+/* Start Color */
+
+.bg-white {
+    background-color: white;
+}
+.bg-eee {
+    background-color: #eee;
+}
+.bg-blue {
+    background-color: var(--blue-color);
+}
+.bg-orange {
+    background-color: var(--orange-color);
+}
+.bg-green {
+    background-color: var(--green-color);
+}
+.bg-red {
+    background-color: var(--red-color);
+}
+.c-black {
+    color: black;
+}
+.c-white {
+    color: white;
+}
+.c-blue {
+    color: var(--blue-color);
+}
+.c-orange {
+    color: var(--orange-color);
+}
+.c-green {
+    color: var(--green-color);
+}
+.c-red {
+    color: var(--red-color);
+}
+.c-main {
+   color: #749fca;
+}
+.c-grey {
+    color: grey;
+}
+.c-aaa {
+    color: #aaa;
+}
+.c-eee {
+    color: #eee;
+}
+/* End Color */
+/* Start Box Shadow */
+.box-shad {
+    box-shadow: 0 0 10px #0417374a;
+}
+/* End Box Shadow */
+/* Start Postion */
+.p-relative {
+    position: relative;
+}
+/* End Postion */
+/* Start Font  */
+.txt-c {
+    text-align: center;
+}
+.txt-l {
+    text-align: left;
+}
+.fs-13 {
+    font-size: 13px;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-17 {
+    font-size: 17px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-25 {
+    font-size: 25px;
+}
+.fs-30 {
+    font-size: 30px;
+}
+.fs-40 {
+    font-size: 40px;
+}
+.fs-50 {
+    font-size: 50px;
+}
+.fw-bold {
+    font-weight: 600;
+}
+@media (max-width:767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
+}
+/* End Font  */
+/* Start border */
+.br-top {
+    border-top: 2px solid #eee ;
+}
+.br-right{
+    border-right: 2px solid #eee ;
+}
+.br-bottom {
+    border-bottom: 2px solid #eee ;
+}
+.br-left {
+    border-left: 2px solid #eee ;
+}
+.rad-6 {
+    border-radius: 6px;
+}
+.rad-10 {
+    border-radius: 10px;
+}
+.rad-half {
+    border-radius: 50%;
+}
+.br-eee {
+    border: 1px solid #eee;
+}
+.br-aaa {
+    border: 1px solid #aaa;
+}
+.b-none {
+    border: none;
+}
+/* End border */
+/* Start Transtion */
+.li-tra {
+    transition: 0.5s;
+}
+/* End Transtion */
+/* Start Components  */
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ov-hidden {
+    overflow: hidden;
+}
+.ov-auto {
+    overflow: auto;
+}
+/* End Components  */
+/* Start Width And Height */
+.w-full {
+    width: 100%;
+}
+.w-fit {
+    width: fit-content;
+}
+.prof-size {
+    width: 60px;
+    height: 60px;
+}
+.icon-size {
+    width: 35px;
+    height: 35px;
+}
+.btn-shape {
+    padding: 8px 9px;
+    border-radius: 6px;
+}
+/* End Width And Height */
+/* Start Cursor  */
+.c-pointer {
+    cursor: pointer;
+}
+/* End Cursor  */
+/* Transtion */
+.tranz {
+    transition: 0.3s;
+}
+/* Transtion */

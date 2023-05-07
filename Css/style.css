@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: #eee;
+}
+
+.result-summary {
+    background-color: white;
+    display: flex;
+    width: fit-content;
+    margin: 200px auto 0;
+    border-radius: 20px;
+    box-shadow: 0 0 9px -4px;
+}
+.result-summary .result {
+    text-align: center;
+    background-color: #6340fc;
+    color: white;
+    border-radius: 20px;
+    padding: 40px;
+}
+.result-summary .result .result-circle {
+    width: 140px;
+    height: 140px;
+    padding: 20px;
+    margin: 20px auto;
+    background: radial-gradient(circle at center bottom, rgba(72,39,208,0) 0%, rgba(72,39,208,0) 0%, rgba(72,39,208,1) 100%);
+    border-radius: 50%;
+}
+
+.result-summary .result p {
+    max-width: 250px;
+    margin: auto;
+}
+/* Start Summary */
+.result-summary .summary {
+    padding: 40px;
+}
+.result-summary .summary .sum-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 240px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.result-summary .summary .red {
+    background-color: #fff6f5;
+}
+.result-summary .summary .sum-row .red {
+    color: #ff5555;
+}
+.result-summary .summary .yellow {
+    background-color: #fffbf0;
+}
+.result-summary .summary .sum-row .yellow {
+    color: #ffb21e;
+}
+.result-summary .summary .green {
+    background-color: #f2fbfa;
+}
+.result-summary .summary .sum-row .green {
+    color: #00bb8f
+}
+.result-summary .summary .purple {
+    background-color: #f3f3fd;
+}
+.result-summary .summary .sum-row .purple {
+    color: #1125d6;
+}
+.result-summary .summary button {
+    margin: 0 auto;
+    display: block;
+    width: 240px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #303b59;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.result-summary .summary button:hover {
+    background-color: #6340fc;
+}
+/* End Summary */
